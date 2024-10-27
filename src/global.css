@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tail-ind components;
+@tailwind utilities;
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  height: 90vh;
+  position: relative;
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: #90bb92;
+  margin: 20px 0;
+}
+
+.content h2 {
+  font-size: 1rem;
+  color: #fee2e2;
+  margin-top: 5px;
+}
+
+.bottom-label {
+  position: absolute;
+  bottom: 20px;
+  font-size: 1.5rem;
+  color: #90bb92;
+}
